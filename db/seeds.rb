@@ -3,24 +3,24 @@ puts "🌱 Seeding spices..."
 # Seed your database here
 # data for the users 
 User.create(
-    user_name:"Polly"
-    first_name:"Pauline"
-    last_name:"Muthoni"
-    email:"pau@gmail.com"
+    user_name:"Polly",
+    first_name:"Pauline",
+    last_name:"Muthoni",
+    email:"pau@gmail.com",
     password:"P123"
 )
 User.create(
-    user_name:"Mwangeka"
-    first_name:"Ruth"
-    last_name:"Muluki"
-    email:"muluki@gmail.com"
+    user_name:"Mwangeka",
+    first_name:"Ruth",
+    last_name:"Muluki",
+    email:"muluki@gmail.com",
     password:"M123"
 )
 User.create(
-    user_name:"Jay"
-    first_name:"James"
-    last_name:"Njenga"
-    email:"njenga@gmail.com"
+    user_name:"Jay",
+    first_name:"James",
+    last_name:"Njenga",
+    email:"njenga@gmail.com",
     password:"N123"
 )
 User.create(
@@ -47,7 +47,8 @@ Item.create(name:"Tissue",quantity:"5rolls",price:250,description:"2ply")
 Item.create(name:"Tealeaves",quantity:"500gms",price:200,description:"fine kenyan tea")
 
 #Shopping Lists Data
-ShoppingList.create(name:"Bread",quantity:"10 loaves",price:80,description:"Good bread")
+ShoppingList.create(list_name:"Monday",user_id:2,item_id:1)
+ShoppingList.create(list_name:"Tuesday",user_id:3,item_id:3)
 
 
 puts "✅ Done seeding!"
