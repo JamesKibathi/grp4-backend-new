@@ -1,4 +1,4 @@
-class shoppingList < ActiveRecord::Base
+
+class ShoppingList < ActiveRecord::Base
     has_many :items
-    puts "Hello"
-end
+    end
