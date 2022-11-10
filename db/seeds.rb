@@ -24,8 +24,7 @@ User.create(
     password:"N123"
 )
 User.create(user_name:"Kib",first_name:"Mureithi",last_name:"Kibata", email:"mk@gmail.com",password:"K123")
-User.create(user_name:"Sin",first_name:"Isaac",last_name:"Sindiga",email:"is@gmail.com", password:"S123"
-)
+User.create(user_name:"Sin",first_name:"Isaac",last_name:"Sindiga",email:"is@gmail.com", password:"S123")
 
 # Items data
 
@@ -34,10 +33,15 @@ Item.create(name:"Milk",quantity:"2pks",price:50,description:"cool milk")
 Item.create(name:"Sugar",quantity:"2kgs",price:70,description:"white sugar")
 Item.create(name:"Tissue",quantity:"5rolls",price:250,description:"2ply")
 Item.create(name:"Tealeaves",quantity:"500gms",price:200,description:"fine kenyan tea")
+Item.create(name:"Salt",quantity:"500gms",price:50,description:"Original sea salt")
+Item.create(name:"Soap",quantity:"500gms",price:400,description:"Original Geisha")
 
 #Shopping Lists Data
-ShoppingList.create(list_name:"Monday",user_id:2,item_id:1)
-ShoppingList.create(list_name:"Tuesday",user_id:3,item_id:3)
+ShoppingList.create(list_name:"Monday",user_id:1,item_id:1)
+ShoppingList.create(list_name:"Tuesday",user_id:2,item_id:3)
+ShoppingList.create(list_name:"Wednesday",user_id:1,item_id:2)
+ShoppingList.create(list_name:"Thursday",user_id:2,item_id:4)
+ShoppingList.create(list_name:"Friday",user_id:1,item_id:5)
 
 
 
