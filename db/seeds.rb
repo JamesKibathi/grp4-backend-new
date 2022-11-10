@@ -1,6 +1,8 @@
 puts "🌱 Seeding spices..."
 
 # Seed your database here
+
+
 # data for the users 
 User.create(
     user_name:"Polly",
