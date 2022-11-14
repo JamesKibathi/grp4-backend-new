@@ -70,11 +70,11 @@ end
 
       post "/users" do
         send =User.create(
-          first_name: params[:first_name],
-          last_name: params[:last_name],
-          email: params[:email],
-          user_name: params[:user_name]
-          password: params[:password]
+          first_name:params[:first_name],
+          last_name:params[:last_name],
+          email:params[:email],
+          user_name:params[:user_name],
+          password:params[:password]
         )
         send.to_json
       end
